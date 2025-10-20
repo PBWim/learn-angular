@@ -31,3 +31,16 @@
 # Component Styling : 
 - A huge advantage of Angular's component-based architecture is that it lets you write CSS styles that are scoped specifically to that component.
 - This means the styles you write for your App component will only affect the elements inside the App component's template. They won't "leak out" and accidentally change the look of other components or the rest of your page.
+
+-------------------------------------------
+# Production Build and Deployment
+
+To prepare and deploy your application for the world to see, follow these steps:
+
+1.  **Create a Production Build:** `npm run build`
+    *   This command compiles and optimizes your application for production.
+    *   It bundles all your code into a `dist/first-app` directory, which contains the static HTML, CSS, and JavaScript files that are ready to be hosted on a web server.
+
+2.  **Deploy to Hosting:**
+    *   After the build is complete, the contents of the `dist/first-app` directory are deployed to a web hosting service.
+    *   We used an integrated tool to publish the contents of this folder, making the application live and accessible to everyone.
